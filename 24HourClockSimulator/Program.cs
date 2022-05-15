@@ -24,7 +24,7 @@ namespace _24HourClockSimulator
         {
             while (true)
             {
-                System.Threading.Thread.Sleep(1000);
+                Thread.Sleep(1000);
                 count();
 
                 doTask();
